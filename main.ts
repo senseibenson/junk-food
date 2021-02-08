@@ -62,7 +62,7 @@ fish.y = 110
 controller.moveSprite(fish, 100, 0)
 fish.setStayInScreen(true)
 makeEnemy()
-info info.setLife(3)
+info.setLife(3)
 game.onUpdateInterval(1000, function () {
 	
 })
